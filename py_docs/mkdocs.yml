@@ -1,0 +1,22 @@
+site_name: learn_
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  language: ko
+  features:
+  - navigation.footer
+
+extra: 
+  consent:
+    title: Cookie consent
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/kimg92748/
+    - icon: fontawesome/brands/github
+      link: 
+
+nav:
+  - 홈: index.md
+
+plugins: 
+  - search
