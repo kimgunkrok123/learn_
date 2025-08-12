@@ -1,10 +1,26 @@
 site_name: learn_
-site_url: https://mydomain.org/mysite
+repo_url: https://github.com/kimgunkrok123/learn_
+repo_name: kimgunkrok123/learn_
+
 theme:
   name: material
   language: ko
   features:
   - navigation.footer
+  icon:
+  repo: fontawesome/brands/git-alt
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      scheme: slate
+      primary: black
+      accent: blue
 
 extra: 
   consent:
@@ -13,10 +29,23 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/kimg92748/
     - icon: fontawesome/brands/github
-      link: 
-
-nav:
-  - 홈: index.md
+      link: https://github.com/kimgunkrok123/learn_
 
 plugins: 
   - search
+  - git-authors
+  #- macros
+  #- pdf-export
+  - table-reader
+  - awesome-pages
+  - section-index
+  - git-committers:
+      token: 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
+      repository: kimgunkrok123/learn_
+      branch: main
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true 
+      minify_js: true   
+      minify_css: true    
