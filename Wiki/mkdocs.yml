@@ -1,5 +1,5 @@
 site_name: Learn_
-site_url: https://mydomain.org/mysite
+site_url: https://kimgunkrok123.github.io/learn_/
 repo_name: Learn_
 repo_url: https://github.com/kimgunkrok123/learn_
 
@@ -36,25 +36,27 @@ theme:
 plugins:
   - search
   - tags
+  - awesome-pages
+  - section-index
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
       repository: squidfunk/mkdocs-material
       branch: main
 
-extra: 
+extra:
   homepage: index.md
   social:
-  - icon: fontawesome/brands/instagram
-    link: https://www.instagram.com/kimg92748/
-  - icon: fontawesome/brands/github
-    link: https://github.com/kimgunkrok123/learn_
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/kimg92748/
+    - icon: fontawesome/brands/github
+      link: https://github.com/kimgunkrok123/learn_
   consent:
     title: "cookie consent"
     description: "This site uses cookies to ensure you get the best experience on our website."
-  analytics: 
+  analytics:
     provider: google
-    tracking_id: "G-XXXXXXXXXX"
+    tracking_id: "G-YN85DPDQQP"
     feedback:
       title: Was this page helpful?
       ratings:
@@ -66,7 +68,7 @@ extra:
         - icon: material/emoticon-sad-outline
           name: This page could be improved
           data: 0
-          note: >- 
+          note: >-
             Thanks for your feedback! Help us improve this page by
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
