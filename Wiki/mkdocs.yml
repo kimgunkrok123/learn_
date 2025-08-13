@@ -5,9 +5,8 @@ repo_url: https://github.com/kimgunkrok123/learn_
 
 theme: 
   name: material
-  language: ko
+  language: en
   icon:
-    logo: material/rocket
     edit: material/pencil 
     view: material/eye
   palette:
@@ -38,6 +37,7 @@ plugins:
   - tags
   - awesome-pages
   - section-index
+  - privacy
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
@@ -45,7 +45,7 @@ plugins:
       branch: main
 
 extra:
-  homepage: index.md
+  homepage: https://kimgunkrok123.github.io/learn_/
   social:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/kimg92748/

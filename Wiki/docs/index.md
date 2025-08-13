@@ -1,7 +1,7 @@
 ---
 hide:
-  - navigation
-  - toc
+  - navigation     # 상단 메뉴
+  - toc            # 목
 ---
 
 # Home
