@@ -35,14 +35,23 @@ theme:
 plugins:
   - search
   - tags
-  - awesome-pages
-  - section-index
   - privacy
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
       repository: squidfunk/mkdocs-material
       branch: main
+
+nav:
+  - Home: index.md
+  - Backend: Backend/index.md
+  - Black: Black/index.md
+  - DB: DB/index.md
+  - Frontend: Frontend/index.md
+  - Game: Game/index.md
+  - Language: Language/index.md
+  - Linux: Linux/index.md
+  - Start: Start/index.md
 
 extra:
   homepage: https://kimgunkrok123.github.io/learn_/
